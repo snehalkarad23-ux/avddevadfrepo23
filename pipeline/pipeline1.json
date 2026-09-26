@@ -15,10 +15,27 @@
 					"variableName": "x",
 					"value": "10"
 				}
+			},
+			{
+				"name": "Set variable2",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "y",
+					"value": "30"
+				}
 			}
 		],
 		"variables": {
 			"x": {
+				"type": "String"
+			},
+			"y": {
 				"type": "String"
 			}
 		},
